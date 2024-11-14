@@ -292,6 +292,11 @@ body.dark-mode .theme-toggle-buttons .dark-mode-btn i {
     }
 }
 
+@media screen and (max-width: 1750px){
+    .mainContanier{
+        width: 70% ; 
+    }
+}
 @media screen and (min-widht:850px){
     .mainContanier{
         width: 90% !important;
@@ -363,6 +368,7 @@ body.dark-mode .theme-toggle-buttons .dark-mode-btn i {
 @media screen and (max-width: 435px){
     .mainContanier{
         height: 100vh;
+        width: 100%;
     }
     .heading{
         font-size: 1.9rem;
@@ -379,9 +385,5 @@ body.dark-mode .theme-toggle-buttons .dark-mode-btn i {
     }
 }
 
-@media screen and (max-width: 1500px){
-    .mainContanier{
-        width: 50% !important;
-    }
-}
+
 
