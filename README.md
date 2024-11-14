@@ -34,12 +34,11 @@ This project leverages a simple but powerful set of technologies to bring everyt
 4. **Toast Notifications**: Inform users of successful actions or errors, making for a more interactive experience.
 
 ---
+## 🎯 Why I Chose This Project
 
-## 🎯 **Why Choose This Project?**
+I chose this project to learn how to create a **sign-up page** that includes essential features like **form validation**, **theme toggling**, and **social media sign-in options** (Google and Apple).
+It provides a practical and interactive way to build a responsive, user-friendly registration form, perfect for enhancing front-end development skills.
 
-- **User-Friendly**: The intuitive design makes it easy for users to sign up without hassle.
-- **Mobile-First**: Fully responsive, making it perfect for both desktop and mobile users.
-- **Customizable**: You can easily tweak the form or add new features as needed.
 
 ---
 
