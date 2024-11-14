@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--  -->
+    <div class="mainContanier">
+      <!-- images section -->
+      <div class="bannarImg">
+        <img src="./images/side image.jpg" alt="" />
+      </div>
+      <!-- signIn lognIn section -->
+      <div class="signIn">
+        <!-- heading -->
+        <span class="heading">Create an account</span>
+        <!-- Login Option -->
+        <span class="toLogIn">
+          <p>Already have account?</p>
+          <button>Log in</button>
+        </span>
+        <!-- inputs -->
+        <form id="registrationForm" class="registrationForm">
+          <div class="inputs">
+            <!-- Name Inputs -->
+            <div class="nameInput">
+              <input type="text" id="firstName" placeholder="First Name" />
+              <input type="text" id="lastName" placeholder="Last Name" />
+            </div>
+            <!-- verification Info -->
+            <div class="verifcationIputs">
+              <input type="email" id="email" placeholder="Email" />
+              <input type="password" id="password" placeholder="Password" />
+            </div>
+            <!-- cheakbox -->
+            <div class="checkBox">
+              <input type="checkbox" id="checkbox" />
+              <label for="checkbox">I agree to the </label>
+              <p>Terms & conditions</p>
+            </div>
+          </div>
+          
+          <div class="submitBtn">
+            <button type="submit">Create account</button>
+          </div>
+
+          
+        </form>
+        <div class="submisson">
+          <!-- button for submition -->
+          
+          <!-- option for login -->
+          <div class="option">
+            <p>Or register with</p>
+
+            <div class="optionBtn">
+              <button>
+                <img src="./images/google icon.png" alt="" />
+                Google
+              </button>
+              <button>
+                <img
+                  src="./images/[removal.ai]_9578d451-ca71-49cb-8d1e-e12f9968ef53-apple_gray_logo.png"
+                  alt=""
+                />
+                Apple
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
