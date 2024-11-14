@@ -337,6 +337,11 @@ body.dark-mode .theme-toggle-buttons .dark-mode-btn i {
 }
 
 @media screen and (max-width: 450px){
+    .theme-toggle-buttons{
+        display: none;
+
+    }
+    
     .heading{
         font-size: 1.5rem;
     }
