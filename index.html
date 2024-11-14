@@ -5,44 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <!-- Including Toastify CSS for notifications -->
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
     />
 
+    <!-- Including Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Linking to custom stylesheet -->
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <!--  -->
+    <!-- Toggle buttons for dark and light mode (optional feature) -->
+    <div class="theme-toggle-buttons">
+      <button class="dark-mode-btn">
+        <i class="fa-solid fa-moon fa-xl"></i>
+      </button>
+      <button class="light-mode-btn">
+        <i class="fa-regular fa-sun fa-xl"></i>
+      </button>
+    </div>
+    
+
+    <!-- Main Container -->
     <div class="mainContanier">
-      <!-- images section -->
+      <!-- Banner image section -->
       <div class="bannarImg">
-        <img src="./images/side image.jpg" alt="" />
+        <img src="./images/side image.jpg" alt="Banner Image" />
       </div>
-      <!-- signIn lognIn section -->
+
+      <!-- Sign-In and Log-In section -->
       <div class="signIn">
-        <!-- heading -->
+        <!-- Heading for sign-up form -->
         <span class="heading">Create an account</span>
-        <!-- Login Option -->
+
+        <!-- Option to log in if user already has an account -->
         <span class="toLogIn">
           <p>Already have account?</p>
           <button>Log in</button>
         </span>
-        <!-- inputs -->
+
+        <!-- Registration form -->
         <form id="registrationForm" class="registrationForm">
           <div class="inputs">
-            <!-- Name Inputs -->
+            <!-- Name inputs for first and last name -->
             <div class="nameInput">
               <input type="text" id="firstName" placeholder="First Name" />
               <input type="text" id="lastName" placeholder="Last Name" />
             </div>
-            <!-- verification Info -->
+
+            <!-- Verification inputs for email and password -->
             <div class="verifcationIputs">
               <input type="email" id="email" placeholder="Email" />
               <input type="password" id="password" placeholder="Password" />
             </div>
-            <!-- cheakbox -->
+
+            <!-- Checkbox for terms and conditions agreement -->
             <div class="checkBox">
               <input type="checkbox" id="checkbox" />
               <label for="checkbox">I agree to the </label>
@@ -50,28 +77,27 @@
             </div>
           </div>
           
+          <!-- Submit button for creating an account -->
           <div class="submitBtn">
             <button type="submit">Create account</button>
           </div>
-
-          
         </form>
+
+        <!-- Submission options for social media login -->
         <div class="submisson">
-          <!-- button for submition -->
-          
-          <!-- option for login -->
           <div class="option">
             <p>Or register with</p>
 
+            <!-- Buttons for Google and Apple login options -->
             <div class="optionBtn">
               <button>
-                <img src="./images/google icon.png" alt="" />
+                <img src="./images/google icon.png" alt="Google Icon" />
                 Google
               </button>
               <button>
                 <img
                   src="./images/[removal.ai]_9578d451-ca71-49cb-8d1e-e12f9968ef53-apple_gray_logo.png"
-                  alt=""
+                  alt="Apple Icon"
                 />
                 Apple
               </button>
@@ -81,12 +107,13 @@
       </div>
     </div>
 
-    
-
+    <!-- Including Toastify JavaScript for notifications -->
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/toastify-js"
     ></script>
+    
+    <!-- Linking to custom JavaScript file -->
     <script src="./app.js"></script>
   </body>
 </html>

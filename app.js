@@ -52,8 +52,27 @@ document.getElementById("registrationForm").addEventListener("submit", (e) => {
   }
 
   // If all validations pass
-  window.location.href = "https://fahadkhan030.github.io/portfolio-website/";
+  window.location.href = "https://www.youtube.com/";
 });
+
+// Select the dark and light mode buttons
+const darkModeButton = document.querySelector('.dark-mode-btn');
+const lightModeButton = document.querySelector('.light-mode-btn');
+
+// Function to enable dark mode
+function enableDarkMode() {
+  document.body.classList.add('dark-mode'); // Apply dark mode class
+}
+
+// Function to enable light mode
+function enableLightMode() {
+  document.body.classList.remove('dark-mode'); // Remove dark mode class
+}
+
+// Event listeners for the buttons
+darkModeButton.addEventListener('click', enableDarkMode);
+lightModeButton.addEventListener('click', enableLightMode);
+
 
 
 
